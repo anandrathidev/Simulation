@@ -17,3 +17,6 @@ Physics:
 11- bepuphysics
 12- Brax
 13- MuJoCo : https://github.com/google-deepmind/mujoco
+
+cmake  -S .. -B .  -DCMAKE_INSTALL_PREFIX=/home/user/vulkan/install
+cmake --build .  --target install
